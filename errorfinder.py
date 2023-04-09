@@ -44,4 +44,4 @@ if __name__=="__main__":
         get_urls(json2)
         get_urls(json3)
     else:
-        print("no error")
+        print("No errors found. YUPPYY! :)")
