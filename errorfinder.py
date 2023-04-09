@@ -1,7 +1,6 @@
 import requests       # face solicitări HTTP către API-uri web.
 from subprocess import Popen, PIPE     # executa comenzi externe in Python
 
-
 def  execute_command(command):
     
     args=(command).split()     # imparte comanda respectiva
