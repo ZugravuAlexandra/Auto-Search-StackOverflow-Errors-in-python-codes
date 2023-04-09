@@ -1,4 +1,4 @@
-# Auto-Search-StackOverflow-Errors-in-python-codes
+# Auto Search StackOverflow Errors in python codes
 
 Have you ever found yourself stuck with a coding error in your Python project, endlessly searching Stack Overflow for a solution, only to find yourself drowning in a sea of irrelevant answers?
 
