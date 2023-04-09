@@ -4,7 +4,7 @@ from subprocess import Popen, PIPE     # executa comenzi externe in Python
 def  execute_command(command):
     
     args=(command).split()     # imparte comanda respectiva
-    proc=Popen(args,stdoutput=PIPE, stderr=PIPE)   # trece argumentele in subprocess pentru a fi executate
+    proc=Popen(args,stdout=PIPE, stderr=PIPE)   # trece argumentele in subprocess pentru a fi executate
     output, err = proc.communicate()
     return output, err
 
